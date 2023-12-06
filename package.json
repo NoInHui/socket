@@ -1,0 +1,31 @@
+{
+  "name": "socket",
+  "version": "1.0.0",
+  "description": "1. 백앤드 세팅 :",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoInHui/socket.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoInHui/socket/issues"
+  },
+  "homepage": "https://github.com/NoInHui/socket#readme",
+  "dependencies": {
+    "bson": "^6.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http": "0.0.1-security",
+    "mongoose": "^8.0.2",
+    "nodemon": "^3.0.2",
+    "socket.io": "^4.7.2"
+  }
+}
